@@ -9,6 +9,10 @@
 				position: absolute;
 			}
 
+			img {
+           		position: absolute;
+        	}
+        	
 			#rightSide {
 				left: 500px;
 				border-left: 1px solid black
@@ -23,7 +27,7 @@
 	
 	</head>
 
-	<body>
+	<body onload = "generateFaces()">
 
 		<h1>Emoji Hunt</h1>
 		<p>Click on the extra smiling face on the left</p>
@@ -31,5 +35,6 @@
 		<div id = "leftSide" class = "abs"></div>
 		<div id = "rightSide" class = "abs"></div>
 
+		<script type="text/javascript" src = "Guessing_Game.js"></script>
 	</body>
 </html>
