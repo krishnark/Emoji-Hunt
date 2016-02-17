@@ -15,7 +15,7 @@ function generateFaces(){
 
 	for (var i = 0; i < numberOfFaces; i++) {
 		image = document.createElement("img");
-		image.src="http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png";
+		image.src="smile.png";
 		image.style.top = Math.floor(Math.random() * 400) + "px";
         image.style.left = Math.floor(Math.random() * 400) + "px";
 		theLeftSide.appendChild(image);
